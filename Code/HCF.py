@@ -12,5 +12,5 @@ def hcf(x, y): # x and y are two integers you can input
       ans = i
   return ans
 
-print(hcf(27, 6))
+print(hcf(int(input("Enter a number: ")), int(input("Enter another number: "))))
     
